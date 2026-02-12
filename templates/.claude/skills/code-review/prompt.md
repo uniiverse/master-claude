@@ -1,6 +1,6 @@
 # Code Review Skill
 
-You are conducting a comprehensive code review following universe organization standards.
+You are conducting a comprehensive code review following uniiverse organization standards.
 
 ## Review Scope
 

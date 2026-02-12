@@ -2,10 +2,10 @@
 set -euo pipefail
 
 # Bootstrap a repository with the master-claude template
-# Usage: curl -sSL https://raw.githubusercontent.com/universe/master-claude/main/scripts/bootstrap-repo.sh | bash
+# Usage: curl -sSL https://raw.githubusercontent.com/uniiverse/master-claude/main/scripts/bootstrap-repo.sh | bash
 
 SCRIPT_VERSION="1.0.0"
-MASTER_CLAUDE_REPO="https://github.com/universe/master-claude.git"
+MASTER_CLAUDE_REPO="https://github.com/uniiverse/master-claude.git"
 MASTER_CLAUDE_BRANCH="main"
 
 # Colors for output
@@ -308,7 +308,7 @@ print_summary() {
     echo "  4. To sync updates from master-claude:"
     echo "     .claude/commands/sync.sh"
     echo ""
-    echo "Documentation: https://github.com/universe/master-claude"
+    echo "Documentation: https://github.com/uniiverse/master-claude"
     echo ""
 }
 

@@ -9,13 +9,13 @@ Get up and running with the master-claude template system in 5 minutes.
 Run this from your repository root:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/universe/master-claude/main/scripts/bootstrap-repo.sh | bash
+curl -sSL https://raw.githubusercontent.com/uniiverse/master-claude/main/scripts/bootstrap-repo.sh | bash
 ```
 
 This will:
 - ✅ Create `.claude/` directory structure
 - ✅ Add master-claude as a git submodule
-- ✅ Create `CLAUDE.md` with universe standards
+- ✅ Create `CLAUDE.md` with uniiverse standards
 - ✅ Create `CLAUDE.local.md` for customization
 - ✅ Symlink shared skills, agents, and commands
 
@@ -304,14 +304,14 @@ mkdir -p .claude/skills/custom/my-skill
 
 ## Getting Help
 
-- **Issues**: [GitHub Issues](https://github.com/universe/master-claude/issues)
+- **Issues**: [GitHub Issues](https://github.com/uniiverse/master-claude/issues)
 - **Discussion**: #ai-tooling on Slack
-- **Email**: engineering-enablement@universe.org
+- **Email**: engineering-enablement@uniiverse.org
 
 ---
 
 **Ready to start?** Run the bootstrap script in your repository:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/universe/master-claude/main/scripts/bootstrap-repo.sh | bash
+curl -sSL https://raw.githubusercontent.com/uniiverse/master-claude/main/scripts/bootstrap-repo.sh | bash
 ```

@@ -1,6 +1,6 @@
 # Security Scan Skill
 
-Perform a comprehensive security vulnerability assessment following OWASP Top 10 and universe security standards.
+Perform a comprehensive security vulnerability assessment following OWASP Top 10 and uniiverse security standards.
 
 ## Scan Focus
 

@@ -36,7 +36,7 @@
 
 ### Code Style Preferences
 
-<!-- Override or extend universe coding standards -->
+<!-- Override or extend uniiverse coding standards -->
 
 **Example**:
 ```markdown
@@ -276,9 +276,9 @@ docker-compose logs -f app
 
 ### Related Repositories
 
-- API Gateway: `universe/api-gateway`
-- Shared libraries: `universe/common-lib`
-- Infrastructure: `universe/infra-terraform`
+- API Gateway: `uniiverse/api-gateway`
+- Shared libraries: `uniiverse/common-lib`
+- Infrastructure: `uniiverse/infra-terraform`
 
 ---
 

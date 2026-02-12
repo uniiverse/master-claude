@@ -1,4 +1,4 @@
-# Universe Organization - AI Coding Standards
+# Uniiverse Organization - AI Coding Standards
 
 **Template Version**: 1.0.0
 **Last Updated**: 2026-02-12
@@ -8,7 +8,7 @@
 
 ## Purpose
 
-This file defines AI coding standards and behaviors for all repositories in the universe organization. These instructions ensure consistent code quality, security practices, and development workflows when working with AI assistants like Claude Code.
+This file defines AI coding standards and behaviors for all repositories in the uniiverse organization. These instructions ensure consistent code quality, security practices, and development workflows when working with AI assistants like Claude Code.
 
 **Customization**: For repository-specific preferences, see `CLAUDE.local.md` in this repository.
 
@@ -164,7 +164,7 @@ counter += 1
 
 # ✅ DO - Explains reasoning
 # Reset counter after batch size to prevent memory overflow
-# See: https://github.com/universe/project/issues/123
+# See: https://github.com/uniiverse/project/issues/123
 counter += 1
 if counter >= BATCH_SIZE:
     flush_batch()
@@ -409,7 +409,7 @@ Skills are reusable capabilities you can invoke. Located in `.claude/skills/`.
 
 ### Core Skills
 
-- **`/code-review`**: Comprehensive code review following universe standards
+- **`/code-review`**: Comprehensive code review following uniiverse standards
 - **`/security-scan`**: Security vulnerability assessment
 - **`/test-generator`**: Generate test cases for functions/modules
 - **`/architecture-review`**: Review system design and architecture
@@ -486,7 +486,7 @@ Add customizations to `CLAUDE.local.md` in this repository:
 
 ### Version Tracking
 
-This file is synced from [master-claude](https://github.com/universe/master-claude).
+This file is synced from [master-claude](https://github.com/uniiverse/master-claude).
 
 - **Current Version**: 1.0.0
 - **Check for Updates**: `.claude/commands/sync.sh`
@@ -506,11 +506,11 @@ This file is synced from [master-claude](https://github.com/universe/master-clau
 
 ## Questions or Issues?
 
-- **Documentation**: See [master-claude README](https://github.com/universe/master-claude)
-- **Issues**: [GitHub Issues](https://github.com/universe/master-claude/issues)
+- **Documentation**: See [master-claude README](https://github.com/uniiverse/master-claude)
+- **Issues**: [GitHub Issues](https://github.com/uniiverse/master-claude/issues)
 - **Chat**: #ai-tooling on Slack
 
 ---
 
 **Maintained by**: Engineering Enablement Team
-**Template Source**: [universe/master-claude](https://github.com/universe/master-claude)
+**Template Source**: [uniiverse/master-claude](https://github.com/uniiverse/master-claude)

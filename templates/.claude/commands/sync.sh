@@ -245,7 +245,7 @@ print_summary() {
     echo "     git add .claude"
     echo "     git commit -m 'Sync master-claude template to $current_version'"
     echo ""
-    echo "Documentation: https://github.com/universe/master-claude"
+    echo "Documentation: https://github.com/uniiverse/master-claude"
     echo ""
 }
 

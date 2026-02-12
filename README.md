@@ -1,24 +1,24 @@
 # Master Claude Template
 
-> Shared AI development template for all universe organization repositories
+> Shared AI development template for all uniiverse organization repositories
 
 ## What is This?
 
-This repository provides a standardized template system that bootstraps AI-assisted development capabilities across all universe repositories. It ensures Claude behaves consistently, provides reusable skills, and maintains organization-wide coding standards.
+This repository provides a standardized template system that bootstraps AI-assisted development capabilities across all uniiverse repositories. It ensures Claude behaves consistently, provides reusable skills, and maintains organization-wide coding standards.
 
 ## Quick Start
 
 ### Bootstrap a Repository
 
-From any universe repository:
+From any uniiverse repository:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/universe/master-claude/main/scripts/bootstrap-repo.sh | bash
+curl -sSL https://raw.githubusercontent.com/uniiverse/master-claude/main/scripts/bootstrap-repo.sh | bash
 ```
 
 This will:
 - Create `.claude/` directory with skills, agents, and commands
-- Add `CLAUDE.md` with universe coding standards
+- Add `CLAUDE.md` with uniiverse coding standards
 - Create `CLAUDE.local.md` for repository-specific customization
 - Initialize version tracking
 
@@ -61,11 +61,11 @@ Purpose-built agents for:
 
 ### ⚡ Custom Commands
 
-Universe-specific commands:
+Uniiverse-specific commands:
 - `/bootstrap`: Initialize template in repo
 - `/sync-master`: Update from master-claude
 - `/validate-template`: Check template integrity
-- `/universe-review`: Full standards compliance review
+- `/uniiverse-review`: Full standards compliance review
 
 ## Repository Structure
 
@@ -146,7 +146,7 @@ Instructions are applied in this order (highest priority first):
 
 1. **~/.claude/CLAUDE.local.md** - Your personal preferences
 2. **CLAUDE.local.md** - Repository-specific instructions
-3. **CLAUDE.md** - Core universe standards (synced from master)
+3. **CLAUDE.md** - Core uniiverse standards (synced from master)
 4. **Master Template** - The source template
 
 ### Distribution via Git Submodules
@@ -186,7 +186,7 @@ See [docs/agents-guide.md](./docs/agents-guide.md)
 ## Support
 
 - **Documentation**: [Full Specification](./SPEC.md)
-- **Issues**: [GitHub Issues](https://github.com/universe/master-claude/issues)
+- **Issues**: [GitHub Issues](https://github.com/uniiverse/master-claude/issues)
 - **Chat**: #ai-tooling on Slack
 - **Owner**: Engineering Enablement Team
 
@@ -202,7 +202,7 @@ See [docs/agents-guide.md](./docs/agents-guide.md)
 
 ## License
 
-Internal use only - Universe Organization
+Internal use only - Uniiverse Organization
 
 ---
 

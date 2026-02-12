@@ -152,7 +152,7 @@ EOF
 cat > prompt.md <<'EOF'
 # My Skill
 
-This skill performs a specific task following universe standards.
+This skill performs a specific task following uniiverse standards.
 
 ## Mode
 

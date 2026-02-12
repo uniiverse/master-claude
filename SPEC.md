@@ -2,7 +2,7 @@
 
 ## Overview
 
-The `master-claude` repository defines a shared template system for bootstrapping AI-assisted development capabilities across all repositories in the universe organization. This ensures consistent AI behavior, reusable skills, and standardized development workflows.
+The `master-claude` repository defines a shared template system for bootstrapping AI-assisted development capabilities across all repositories in the uniiverse organization. This ensures consistent AI behavior, reusable skills, and standardized development workflows.
 
 ## Goals
 
@@ -58,7 +58,7 @@ master-claude/
 
 ### 1. CLAUDE.md - Master Instructions
 
-**Purpose**: Define universe-wide AI coding standards, practices, and behaviors.
+**Purpose**: Define uniiverse-wide AI coding standards, practices, and behaviors.
 
 **Contents**:
 - Organization coding standards reference
@@ -97,7 +97,7 @@ master-claude/
 # skill.yaml
 name: code-review
 version: 1.0.0
-description: Comprehensive code review following universe standards
+description: Comprehensive code review following uniiverse standards
 trigger_patterns:
   - "review this code"
   - "code review"
@@ -159,13 +159,13 @@ behavior:
 
 ### 5. Commands - Custom CLI Extensions
 
-**Purpose**: Provide universe-specific Claude CLI commands.
+**Purpose**: Provide uniiverse-specific Claude CLI commands.
 
 **Standard Commands**:
 - `/bootstrap`: Initialize repository with template
 - `/sync-master`: Pull latest from master-claude
 - `/validate-template`: Check template integrity
-- `/universe-review`: Full universe-standards review
+- `/uniiverse-review`: Full uniiverse-standards review
 - `/deploy-check`: Pre-deployment validation
 
 ## Distribution Strategy
@@ -175,7 +175,7 @@ behavior:
 1. **Initial Setup**:
    ```bash
    # From any repository
-   curl -sSL https://raw.githubusercontent.com/universe/master-claude/main/scripts/bootstrap-repo.sh | bash
+   curl -sSL https://raw.githubusercontent.com/uniiverse/master-claude/main/scripts/bootstrap-repo.sh | bash
    ```
 
 2. **What Bootstrap Does**:
@@ -188,7 +188,7 @@ behavior:
 3. **Git Submodule Approach**:
    ```bash
    # Add master-claude as submodule
-   git submodule add https://github.com/universe/master-claude.git .claude/master
+   git submodule add https://github.com/uniiverse/master-claude.git .claude/master
 
    # Symlink core files
    ln -s .claude/master/templates/CLAUDE.md CLAUDE.md
@@ -332,7 +332,7 @@ Track across organization:
 
 ## Success Metrics
 
-- **Adoption**: % of universe repositories bootstrapped
+- **Adoption**: % of uniiverse repositories bootstrapped
 - **Consistency**: % of repos on latest template version
 - **Usage**: Skill/agent invocation frequency
 - **Quality**: Code review findings by Claude

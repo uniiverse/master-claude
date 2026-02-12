@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-The master-claude repository provides a standardized, organization-wide template system for AI-assisted development using Claude Code. It ensures consistent AI behavior, reusable skills, and standardized workflows across all repositories in the universe organization.
+The master-claude repository provides a standardized, organization-wide template system for AI-assisted development using Claude Code. It ensures consistent AI behavior, reusable skills, and standardized workflows across all repositories in the uniiverse organization.
 
 ## What Has Been Built
 
@@ -23,7 +23,7 @@ A detailed technical specification covering:
 - **CLAUDE.local.md**: Repository-specific customization template with placeholders
 
 #### Skills (Reusable Capabilities)
-- **code-review**: Comprehensive code review following OWASP and universe standards
+- **code-review**: Comprehensive code review following OWASP and uniiverse standards
 - **security-scan**: Security vulnerability assessment with CVSS scoring
 - Template structure with skill.yaml + prompt.md
 
@@ -204,7 +204,7 @@ Repository Files: 16
 
 ```bash
 # Initialize repository
-curl -sSL https://raw.githubusercontent.com/universe/master-claude/main/scripts/bootstrap-repo.sh | bash
+curl -sSL https://raw.githubusercontent.com/uniiverse/master-claude/main/scripts/bootstrap-repo.sh | bash
 
 # Customize
 vim CLAUDE.local.md
@@ -246,7 +246,7 @@ git push
 
 ## Success Metrics (Proposed)
 
-- **Adoption**: % of universe repos bootstrapped
+- **Adoption**: % of uniiverse repos bootstrapped
 - **Consistency**: % of repos on latest version
 - **Usage**: Skills invoked per week
 - **Quality**: Issues caught by skills
