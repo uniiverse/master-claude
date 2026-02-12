@@ -1,0 +1,61 @@
+name: code-review
+version: 1.0.0
+description: Comprehensive code review following universe organization standards
+author: Engineering Enablement Team
+
+# Trigger patterns that activate this skill
+trigger_patterns:
+  - "review this code"
+  - "code review"
+  - "/review"
+  - "can you review"
+  - "look over this code"
+
+# Dependencies on other skills or files
+dependencies:
+  - CLAUDE.md
+  - coding-standards
+
+# Parameters the skill accepts
+parameters:
+  - name: scope
+    type: string
+    required: false
+    default: "full"
+    description: "Type of review to perform"
+    options:
+      - full
+      - security
+      - performance
+      - style
+      - logic
+
+  - name: severity
+    type: string
+    required: false
+    default: "medium"
+    description: "Minimum severity of issues to report"
+    options:
+      - critical
+      - high
+      - medium
+      - low
+      - info
+
+# Context files to include when running this skill
+context_files:
+  - CLAUDE.md
+  - CLAUDE.local.md
+  - .github/PULL_REQUEST_TEMPLATE.md
+
+# Model configuration
+model:
+  name: opus-4-6
+  temperature: 0.2
+
+# Tags for categorization
+tags:
+  - code-quality
+  - review
+  - standards
+  - best-practices

@@ -1,0 +1,28 @@
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backups
+*.bak
+*.backup
+
+# Logs
+*.log
+
+# Testing
+test-repos/
+sandbox/
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Temporary files
+tmp/
+temp/

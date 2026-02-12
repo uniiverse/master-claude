@@ -1,0 +1,45 @@
+name: security-scan
+version: 1.0.0
+description: Security vulnerability assessment and threat analysis
+author: Engineering Enablement Team
+
+trigger_patterns:
+  - "security scan"
+  - "security review"
+  - "/security"
+  - "check for vulnerabilities"
+  - "security audit"
+
+dependencies:
+  - CLAUDE.md
+
+parameters:
+  - name: focus
+    type: string
+    required: false
+    default: "all"
+    options:
+      - all
+      - auth
+      - injection
+      - crypto
+      - dependencies
+      - configuration
+
+context_files:
+  - CLAUDE.md
+  - SECURITY.md
+  - requirements.txt
+  - package.json
+  - go.mod
+  - pom.xml
+
+model:
+  name: opus-4-6
+  temperature: 0.1
+
+tags:
+  - security
+  - vulnerabilities
+  - audit
+  - owasp

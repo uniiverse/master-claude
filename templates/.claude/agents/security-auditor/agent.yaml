@@ -1,0 +1,62 @@
+name: security-auditor
+version: 1.0.0
+description: Specialized security review, threat modeling, and vulnerability assessment
+author: Engineering Enablement Team
+
+# Agent configuration
+model:
+  name: opus-4-6
+  temperature: 0.1
+
+# Tools available to this agent
+tools:
+  - Read
+  - Grep
+  - Glob
+  - Bash
+  - WebFetch
+
+# Context files automatically loaded
+context_files:
+  - CLAUDE.md
+  - SECURITY.md
+  - OWASP_TOP_10.md
+
+# Agent behavior settings
+behavior:
+  focus: security-first
+  thoroughness: very-high
+  risk_tolerance: none
+  paranoia_level: high
+
+# When to activate this agent
+activation_triggers:
+  - "security review"
+  - "vulnerability"
+  - "threat model"
+  - "security audit"
+  - "penetration test"
+  - "attack surface"
+
+# Specialized knowledge domains
+knowledge_domains:
+  - OWASP Top 10
+  - CWE/SANS Top 25
+  - Cryptography
+  - Authentication/Authorization
+  - Network Security
+  - Secure Coding Practices
+
+# Output characteristics
+output_style:
+  tone: serious
+  detail_level: comprehensive
+  include_cvss: true
+  include_references: true
+  proof_of_concept: when_applicable
+
+tags:
+  - security
+  - audit
+  - threats
+  - vulnerabilities
